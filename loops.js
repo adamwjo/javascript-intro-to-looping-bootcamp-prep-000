@@ -22,6 +22,6 @@ function doWhileLoop(array){
   }
   return array
   do {
-    array.shift
+    array--
   } while (array.length >=0 && maybeTrue())
 }
