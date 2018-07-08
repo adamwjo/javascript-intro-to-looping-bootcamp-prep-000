@@ -21,7 +21,7 @@ function doWhileLoop(array){
     return Math.random() >= 0.5
   }
   do {
-    delete array[1]
+    array.shift()
   } while (maybeTrue() && array.length > 0)
   return array
 }
