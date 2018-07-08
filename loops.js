@@ -16,11 +16,4 @@ function whileLoop(n) {
 }
 
 
-function doWhileLoop(array){
-  do{
-    array.shift
-  } while (function maybeTrue() {
-  return Math.random() >= 0.5
-} && array.length > 0)
-  return array
-}
+
