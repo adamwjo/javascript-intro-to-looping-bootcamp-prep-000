@@ -20,6 +20,7 @@ function doWhileLoop(array){
   function maybeTrue() {
     return Math.random() >= 1
   }
+  return array
   do {
     array.shift
   } while (array.length >=0 && maybeTrue())
